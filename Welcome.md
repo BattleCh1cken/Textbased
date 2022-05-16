@@ -1,18 +1,19 @@
-'''Welcome.py'''
-#welcome to Testbased!!!
-#Explore the function that the game currently has by look at the files.
-#Completed/Usable code have the first letter in the words capitalize
-#I recommended you go to leetcode.com and do the easy problem to get a sense of how to write def functions and other code.
+```Welcome.md ```
+# welcome to Testbased!!!
+### Explore the function that the game currently has by look at the files.
+### Completed/Usable code have the first letter in the words capitalize
+### I recommended you go to leetcode.com and do the easy problem to get a sense of how to write def functions and other code.
 
-#Questions: (Just paste code/things that you don't understand)
+### Questions: (Just paste code/things that you don't understand)
 
+####End of Questions
 
-#End of Questions
-
-#Rules
-'''
-1.Runnng Code
-- You run the files by renaming the file into 'main.py'
+### Rules
+```
+1. Runnng Code
+- You run the files by renaming the file into 'main.py' or
+- 
+- 
 - Make sure to make a copy of the code then rename to main.py if you want to run the code
 - File name will be included within ''' ''' and is yellow
 
@@ -27,4 +28,4 @@
 - ToDoList has files that you can test and captialize name if you are done
 - List the inputs and output in lines 2-3
 - Make sure to put that information of the function in orange(''' ''')
-'''
+```
