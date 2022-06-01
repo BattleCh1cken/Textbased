@@ -6,7 +6,6 @@
 '''
 from math import ceil
 import random
-#*** means in the future
 
 
 def hp(stats:list, currhp:int, dmg:int)-> int:
@@ -22,11 +21,11 @@ def hp(stats:list, currhp:int, dmg:int)-> int:
   #add bars together
   print(stats[0],"Hp:","["+bar+emptybar+"]")
   return currhp
-
+#This could and should be an object
 enemy=["Test Dummy",100,0]
 enemyhp=enemy[1]
-loop=True
-while loop==True:
+tryagain=""
+while tryagain != "stop":
   enemy=["Test Dummy",100,0]
   enemyhp=enemy[1]
   #generate_enemy(level)
@@ -39,8 +38,6 @@ while loop==True:
     enemyhp = hp(enemy,enemyhp,dmg)
   print(enemy[0],"has been defeated")
   tryagain=input("Do you want to continue? [type 'stop']  ")
-  if tryagain == "stop":
-    loop=False
 
 
 

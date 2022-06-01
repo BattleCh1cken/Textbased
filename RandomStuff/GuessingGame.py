@@ -7,7 +7,7 @@ max=100
 print("Pick a number between",min,"and",max)
 guess = int(input("Your guess: "))
 
-def guessNumber(guess):
+def guessNumber(guess:int):
     randomN = random.randint(min,max)
     sum = 0
     while guess != randomN:
